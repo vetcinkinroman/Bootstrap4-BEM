@@ -1,0 +1,30 @@
+.logo {
+  font-size: 30px;
+  font-family: 'Open-Sans-Semibold', 'sans-serif';
+}
+
+.menu-bar {
+  color: #212121;
+  padding: 20px 0;
+}
+
+.menu__item {
+  margin-left: 37px;
+  a {
+    font-family: 'Open-Sans-Semibold', 'sans-serif';
+    font-size: 20px;
+    color: #212121;
+    text-decoration: none;
+    transition: all 0.3s;
+    &:hover {
+      color: #00897b;
+    }
+  }
+  i {
+    transition: all 0.3s;
+    cursor: pointer;
+    &:hover {
+      color: #00897b;
+    }
+  }
+}
