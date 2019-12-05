@@ -18,11 +18,43 @@
   src: url("../fonts/OpenSans-Semibold.ttf");
 }
 
+body {
+  font-family: 'Open-Sans', 'sans-serif';
+  box-sizing: border-box;
+}
+
 ul, li {
   display: block;
   padding: 0;
   margin: 0;
   list-style-type: none;
+}
+
+.button {
+  padding: 10px 25px;
+  margin: 0 10px;
+  color: #fff;
+  transition: all .3s;
+}
+
+.button_empty {
+  background: transparent;
+  border: 2px solid #fff;
+}
+
+.button_empty:hover {
+  border: 2px dotted #fff;
+  background: #1C893A;
+}
+
+.button_full {
+  background: #00897b;
+  border: 2px solid #1c893a;
+}
+
+.button_full:hover {
+  border: 2px dotted #fff;
+  background: #1C893A;
 }
 
 .logo {
@@ -40,7 +72,7 @@ ul, li {
 }
 
 .menu__item a {
-  font-family: 'Open-Sans-Semibold', 'sans-serif';
+  font-family: 'Open-Sans-Semibold', sans-serif;
   font-size: 20px;
   color: #212121;
   text-decoration: none;
@@ -58,4 +90,48 @@ ul, li {
 
 .menu__item i:hover {
   color: #00897b;
+}
+
+.header > div {
+  color: #fff;
+  background-image: url(../img/header.png);
+  padding: 180px 0;
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 0 100%;
+}
+
+.header__title {
+  font-size: 55px;
+  font-family: 'Open-Sans-Semibold', sans-serif;
+}
+
+.header__text {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.about {
+  color: #000;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 125px;
+}
+
+.about_title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.about_text {
+  font-size: 15px;
+  margin-bottom: 110px;
+  color: #737373;
+}
+
+.about_h3 {
+  font-family: 'Open-Sans-Semibold', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }

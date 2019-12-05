@@ -11,7 +11,7 @@
 .menu__item {
   margin-left: 37px;
   a {
-    font-family: 'Open-Sans-Semibold', 'sans-serif';
+    font-family: 'Open-Sans-Semibold', sans-serif;
     font-size: 20px;
     color: #212121;
     text-decoration: none;
@@ -27,4 +27,24 @@
       color: #00897b;
     }
   }
+}
+
+.header > div {
+  color: #fff;
+  background-image: url(../img/header.png);
+  padding: 180px 0;
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 0 100%;
+}
+
+.header__title {
+  font-size: 55px;
+  font-family: 'Open-Sans-Semibold', sans-serif;
+}
+
+.header__text {
+  font-size: 20px;
+  margin-bottom: 100px;
 }
